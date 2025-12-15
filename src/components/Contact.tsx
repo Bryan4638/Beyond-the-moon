@@ -52,7 +52,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-8">
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg h-full flex flex-col justify-between">
               <h3 className="text-2xl font-medium text-[#5A4A3A] mb-6">
                 Información de contacto
               </h3>
@@ -145,21 +145,9 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1117.4882663683265!2d-81.55335579575132!3d23.034176426551966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d2fd005ea6c645%3A0xdbb507723aa23424!2sBeyond%20the%20moon!5e0!3m2!1ses!2sus!4v1765609024291!5m2!1ses!2sus"
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                className="grayscale-[30%] sepia-[10%]"
-              ></iframe>
-            </div>
           </div>
 
-          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+          <div className="bg-white/70 backdrop-blur-sm rounded-2xl px-8 pt-8 pb-4 shadow-lg">
             <h3 className="text-2xl font-medium text-[#5A4A3A] mb-6">
               Envíanos un mensaje
             </h3>
@@ -261,6 +249,18 @@ export default function Contact() {
               </button>
             </form>
           </div>
+        </div>
+
+        <div className="mt-12 bg-white/70 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1117.4882663683265!2d-81.55335579575132!3d23.034176426551966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d2fd005ea6c645%3A0xdbb507723aa23424!2sBeyond%20the%20moon!5e0!3m2!1ses!2sus!4v1765609024291!5m2!1ses!2sus"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            className="grayscale-[30%] sepia-[10%]"
+          ></iframe>
         </div>
       </div>
     </section>

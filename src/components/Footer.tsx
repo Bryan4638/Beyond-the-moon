@@ -7,7 +7,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-b from-[#E8F4F8] to-[#5A4A3A] text-white py-12 px-4">
+    <footer className="bg-gradient-to-b from-[#2a231b] to-[#5A4A3A] text-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
