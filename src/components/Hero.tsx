@@ -7,7 +7,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pb-20">
       <div
         className="absolute inset-0 z-1"
         style={{
@@ -60,8 +60,8 @@ export default function Hero() {
         </button>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
-        <div className="w-6 h-10 border-2 border-[#C4A57B] rounded-full p-1">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="w-6 h-10 border-2 border-[#C4A57B] rounded-full p-1 animate-bounce">
           <div className="w-1.5 h-3 bg-[#C4A57B] rounded-full mx-auto animate-pulse"></div>
         </div>
       </div>
